@@ -1,0 +1,21 @@
+.nav{
+    background-color: darkcyan;
+}
+.main_conatiner{
+    background-color: bisque;
+}
+.logout_btn{
+    color: black;
+};
+.product_btn{
+    color: black;
+}
+.footer{
+    height: 80px;
+    width: 98vw;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}

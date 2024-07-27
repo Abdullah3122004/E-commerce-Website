@@ -1,0 +1,23 @@
+.product_heading{
+    text-align: center;
+    font-weight: 1000;
+    font-size: 26px;
+    color: white;
+}
+.products{
+    margin-top: 80px;
+    padding-top: 20px ;
+    border: 2px solid black;
+    background-color: black;
+    border-radius: 20px;
+    height: 60vh;
+}
+body{
+    background-color: cornflowerblue;
+}
+.Products_btn{
+   background-color: black;
+}
+.Back:hover{
+    color: red;
+}

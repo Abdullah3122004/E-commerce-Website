@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.css"  rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    
+    <title>E-commerce</title>
+</head>
+<body>
+    
+    <nav class="bg-white border-gray-200 dark:bg-gray-900 nav">
+        <div class="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl p-4">
+            <a href="./index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
+                <img src="./images/logo.PNG" class="h-8" alt="Rozee.pk" />
+                <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"></span>
+            </a>
+            <div class="flex items-center space-x-6 rtl:space-x-reverse">
+                <a href="My Products/index.html" id="My_product_btn" class="text-sm dark:text-white hover:underline product_btn">My Products</a>
+                 <a href="Add Products/index.html"id="Create_btn">Create Product</a>
+                 <img
+                 id="user_img"
+                 style="display: none;"
+                 height="60px"
+                 width="60ox"
+                 style="border-radius:100px;" src="https://plus.unsplash.com/premium_photo-1721198516755-6a571b396236?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw3fHx8ZW58MHx8fHx8" alt="">
+                <a href="auth/login/login.html" id="Login_link" class="text-sm  text-blue-600 dark:text-blue-500 hover:underline">Login</a>
+                <button id="logout_button" class="logout_btn">Logout</button>
+            </div>
+            
+        </div>
+    </nav>
+
+    <div class="main_conatiner">
+    <div class="container mx-auto p-4 main_conatiner">
+      <!-- <h1 class="text-3xl font-bold mb-6 text-center">Upcoming Events</h1> -->
+      <div
+        id="products_container_card"
+        class="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3"
+      >
+        <!-- Event Card -->
+        <!-- <div class="bg-white shadow-md rounded-lg overflow-hidden">
+          <img
+            src="https://via.placeholder.com/400x200"
+            alt="Event Image"
+            class="w-full h-48 object-cover"
+          />
+          <div class="p-4">
+            <h2 class="text-xl font-bold mb-2">Event Title</h2>
+            <p class="text-gray-600 mb-2">Time: July 15, 2024, 3:00 PM</p>
+            <p class="text-gray-600 mb-2">Creator: John Doe</p>
+            <p class="text-gray-600 mb-2">Location: New York, NY</p>
+            <div class="flex justify-between items-center">
+              <button
+                class="bg-blue-500 text-white px-3 py-1 rounded-md hover:bg-blue-600"
+              >
+                Like
+              </button>
+            </div>
+          </div>
+        </div> -->
+      </div>
+    </div>
+<!-- <button>add to cart</button> -->
+</div>
+    <footer>
+         <div class="footer">
+      All rights reserved
+    </div>
+    </footer>
+    
+    
+    
+    
+    
+</body>
+<script src="app.js" type="module"></script>
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="login.js" type="module"></script>
+</html>
